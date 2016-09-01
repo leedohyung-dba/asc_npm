@@ -1,0 +1,34 @@
+{
+  "name": "asc",
+  "version": "0.0.1",
+  "description": "the npm module for Auto Screen Capture",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "webpack --watch --progress",
+    "build": "webpack"
+  },
+  "author": "fusic",
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "lodash": "^4.13.1",
+    "native-promise-only": "^0.8.1",
+    "request": "^2.65.0",
+    "micro-location": "~0.1.5"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.3",
+    "imports-loader": "^0.6.5",
+    "json-loader": "^0.5.4",
+    "transform-loader": "^0.2.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "babel-core": "~6.10.4",
+    "babel-loader": "~6.2.4",
+    "babel-preset-react": "~6.11.1",
+    "babel-preset-es2015": "~6.9.0",
+    "watch": "^0.18.0"
+  }
+}
